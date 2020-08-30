@@ -15,7 +15,7 @@ namespace SBM.Controllers
 
         public HomeController(ILogger<HomeController> logger)
         {
-            _logger = logger;
+            _logger = logger; // comment 2
         }
 
         public IActionResult Index()

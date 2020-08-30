@@ -8,6 +8,6 @@ namespace SBM.Models
 
         public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
 
-        public int MyPrp { get; set; }
+        public int MyPrp { get; set; }// comment
     }
 }
